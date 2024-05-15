@@ -128,6 +128,8 @@ sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/bundle /usr/local/bin
 sudo apt install libvips -y
 sudo apt install libvips-tools -y
 
+# NodeJS
+sudo apt-get install nodejs -y
 
 sudo apt install docker-compose -y
 # sudo docker-compose up
