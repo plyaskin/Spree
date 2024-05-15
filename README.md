@@ -119,7 +119,7 @@ gpg2 --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A170311
 cat rvm.sh
 curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
-rvm install 3.3.0
+rvm install "ruby-3.3.0"
 
 # Vips
 sudo apt install libvips -y
@@ -130,6 +130,8 @@ sudo apt install docker-compose -y
 # sudo docker-compose up
 
 sudo apt install postgresql-contrib libpq-dev
+gem install bundler
+
 bundle install
 gem install bummr
 
