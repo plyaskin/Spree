@@ -173,7 +173,7 @@ sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/tilt /usr/local/bin/t
 sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/rdoc /usr/local/bin/rdoc
 sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/irb /usr/local/bin/irb
 sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/thor /usr/local/bin/thor
-#sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/ri /usr/local/bin/ri
+# sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/ri /usr/local/bin/ri
 sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/rbs /usr/local/bin/rbs
 sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/sprockets /usr/local/bin/sprockets
 sudo ln -s /var/www/plyaskin/data/.rvm/gems/ruby-3.3.0/bin/racc /usr/local/bin/racc
