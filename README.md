@@ -126,8 +126,7 @@ sudo apt install libvips -y
 sudo apt install libvips-tools -y
 
 
-
-
 sudo apt install docker-compose -y
 # sudo docker-compose up
+sudo bin/setup
 ```
