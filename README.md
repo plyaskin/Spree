@@ -131,6 +131,7 @@ sudo apt install docker-compose -y
 
 sudo apt install postgresql-contrib libpq-dev
 bundle install
+gem install bummr
 
 sudo bin/setup
 ```
