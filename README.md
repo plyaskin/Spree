@@ -128,5 +128,9 @@ sudo apt install libvips-tools -y
 
 sudo apt install docker-compose -y
 # sudo docker-compose up
+
+sudo apt install postgresql-contrib libpq-dev
+bundle install
+
 sudo bin/setup
 ```
