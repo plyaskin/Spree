@@ -121,6 +121,8 @@ echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://pack
 
 sudo apt-get update
 sudo apt-get install redis -y
+sudo systemctl enable redis-server.service
+sudo systemctl start redis-server.service
 
 # PostgreSQL
 sudo apt install postgresql -y
@@ -128,7 +130,5 @@ sudo apt install postgresql -y
 
 
 sudo apt install docker-compose -y
-sudo docker-compose build 
-
-
+# sudo docker-compose up
 ```
