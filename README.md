@@ -110,6 +110,10 @@ curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 rvm install 3.3.0
 
+# Vips
+sudo apt install libvips -y
+sudo apt install libvips-tools -y
+
 # Redis
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 
@@ -126,7 +130,5 @@ sudo apt install postgresql -y
 sudo apt install docker-compose -y
 sudo docker-compose build 
 
-sudo apt install libvips -y
-sudo apt install libvips-tools -y
 
 ```
