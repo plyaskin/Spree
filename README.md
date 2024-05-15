@@ -132,12 +132,21 @@ sudo apt install libvips-tools -y
 sudo apt install docker-compose -y
 # sudo docker-compose up
 
+sudo /etc/init.d/redis-server stop
+sudo /etc/init.d/postgresql stop
+
 sudo apt install postgresql-contrib libpq-dev
 gem install bundler
 gem update --system 3.5.10
 
 bundle install
 gem install bummr
+
+## Other stupid actions
+# Change "port = " to other, ex. 5432 to 5439 and 6739 to 6732
+sudo nano /etc/postgresql/14/main/postgresql.conf
+sudo nano /etc/redis/redis.conf
+
 
 sudo bin/setup
 ```
