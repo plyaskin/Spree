@@ -148,7 +148,7 @@ gem install bummr
 # Change "port = " to other, ex. 5432 to 5439 and 6739 to 6732
 sudo nano /etc/postgresql/14/main/postgresql.conf
 sudo nano /etc/redis/redis.conf
-
+sudo systemctl restart redis
 
 sudo bin/setup
 ```
